@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -572,8 +573,8 @@
                 </div>
 
                 <div class="form-field">
-                  <label for="comment">Коментарий</label>
-                  <textarea class="comment-text" name="comment" id="comment" placeholder="Введите текст" cols="30" rows="10"></textarea>
+                  <label class="label-form" for="comment">Коментарий</label>
+                  <textarea  class="comment-text" name="comment" id="comment" placeholder="Введите текст" cols="30" rows="10"></textarea>
                 </div>
 
                 <div class="agree">
@@ -585,7 +586,8 @@
                    <svg class="checkbox-icon" width="16" height="15">
                     <use href="./images/symbol-defs.svg#icon-check-1"></use>
                   </svg>
-                    Соглашаюсь с рассылкой и принимаю <a class="contract-link" href="">Условия договора</a>
+                  <span class="inf-part">   Соглашаюсь с рассылкой и принимаю </span>
+                 <a class="contract-link" href="">Условия договора</a>
                   
                   </label>
                 </div>
