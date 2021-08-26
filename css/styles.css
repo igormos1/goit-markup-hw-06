@@ -658,10 +658,16 @@ body {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-link:hover .client-icon {
   fill: var(--accent-color);
   border-color: var(--accent-color);
+}
+.client-link:focus .client-icon {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+.client-link:hover {
+  border-color: #2196f3;
 }
 
 .client-tittle {
@@ -958,6 +964,7 @@ body {
   margin-left: 93px;
 }
 .email-name {
+  font-weight: 500;
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 16px;
