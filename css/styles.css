@@ -666,6 +666,10 @@ body {
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
+.client-link:focus .client-icon {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
 .client-link:hover {
   border-color: #2196f3;
 }
