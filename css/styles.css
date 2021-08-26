@@ -1073,7 +1073,7 @@ body {
 .form-checkbox:checked + .agreement {
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-  background-image: url(/images/icon-ok.svg);
+  background-image: url(../images/icon-ok.svg);
   background-size: contain;
   background-origin: border-box;
 }
